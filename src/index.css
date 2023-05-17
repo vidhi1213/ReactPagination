@@ -1,0 +1,41 @@
+/* pagination */
+.custom-pagination{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* -webkit-transform: translateX(-50%); */
+  /* transform: translateX(-50%); */
+  margin-left: 200px;
+}
+.custom-pagination ul {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    padding: 7px 12px;
+}
+.custom-pagination li{
+  list-style-type: none;
+  padding: 0 5px;
+}
+
+.custom-pagination ul li.active a, .custom-pagination ul li:hover a {
+  background: #52bce9;
+  border-radius: 50%;
+  color: #fff;
+}
+
+
+#search
+.search_container{
+  position:relative;
+}
+
+.search_container i{
+  position: absolute;
+  height: 25px;
+  max-width: 25px;
+  top: 8px;
+ right: 12px;
+}
